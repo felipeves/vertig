@@ -130,6 +130,8 @@ color: var(--gray-600);
                 background: none;
                 justify-content: flex-start;
                 display: flex;
+margin: 2.5rem 7rem 7rem;
+                height: fit-content;
             }
 
             header img{
@@ -137,10 +139,12 @@ color: var(--gray-600);
             }
 
             main{
-                padding-inline: 7rem;
+                margin-inline: 7rem;
+                max-width: 2.4rem;
+                padding: 0;
             }
             .conteudo{
-                width: 100%;
+                width: 100% ;
             }
             .bg-deskto{
                 display: block;
