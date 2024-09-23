@@ -6,6 +6,11 @@
 
 }
 
+:root{
+    --gray-800: #1e293b
+    --gray-600:#475569;
+}
+
 header{
     background-image: url(imagens/filtro\ \(1\).png);
     background-size: cover;
@@ -13,5 +18,17 @@ header{
     display: flex;
     justify-content: center;
 align-items: center ;
+margin-bottom: 3.7rem;
 }
-   hhhhhh
+  
+main{
+    padding-inline: 1.5rem;
+}
+
+.descriçao h1{
+color: var(--gray-800);
+margin-bottom: 1rem;
+font-size: 1.565rem;
+}
+;
+
