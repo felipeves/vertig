@@ -108,3 +108,11 @@ font-size: 1.565rem;
         color: var(--white);
     }
 
+    .login > p{
+color: var(--gray-600);
+    }
+
+    .login >  p a   {
+        font-weight: 700;
+        font-size: 1.rem;
+    }
