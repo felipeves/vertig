@@ -116,3 +116,34 @@ color: var(--gray-600);
         font-weight: 700;
         font-size: 1.rem;
     }
+
+    .bg-desktop {
+        display: none;
+    }
+
+    @media(min-widht: 1080px) {
+            
+        body {
+            display: flex;
+        }
+        header {
+                background: none;
+                justify-content: flex-start;
+                display: flex;
+            }
+
+            header img{
+                width: 18rem;
+            }
+
+            main{
+                padding-inline: 7rem;
+            }
+            .conteudo{
+                width: 100%;
+            }
+            .bg-deskto{
+                display: block;
+                width: 100%;
+            }
+    }
